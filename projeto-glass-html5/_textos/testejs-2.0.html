@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html pt-br>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Teste javaScript</title>
+    <style>
+      body {
+        background-color: green ;
+      }
+
+      div {
+        border: white 2px solid;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+      }
+    </style>
+    
+    <div>
+    <script>
+      function AcendeLampada() {
+        document.getElementById("luz").src =
+          "/projeto-glass-html5/_imagens/lampada-acesa.jpg";
+      }
+
+      function apagalampada() {
+        document.getElementById("luz").src =
+          "/projeto-glass-html5/_imagens/lampada-apagada.jpg";
+      }
+      function lampadaquebrada() {
+        document.getElementById("luz").src =
+          "/projeto-glass-html5/_imagens/lampada-quebrada.jpg";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Acenda a lâmpada</h1>
+    <img
+      src="/projeto-glass-html5/_imagens/lampada-apagada.jpg"
+      id="luz"
+      onmousemove="AcendeLampada()"
+      onmouseout="apagalampada()"
+      onclick="lampadaquebrada()"
+      ;
+      ;
+    />
+  </div>
+  </body>
+</html>

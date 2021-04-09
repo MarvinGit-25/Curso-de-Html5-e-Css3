@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "fonteproj";
+  src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 13pt;
+}
+
+p#ini {
+  color: black;
+  padding: 10px;
+}
+
+p.crazy {
+  margin-bottom: 10px;
+}
+h1 {
+  font-family: "fonteproj";
+  font-size: 20pt;
+  border: 1px solid brown;
+  background-color: brown;
+}
+
+h2 {
+  font-size: 16pt;
+  color: brown;
+}
+h2.mod {
+  margin-top: -10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+div#divisao {
+  width: 1000px;
+  margin-left: 165px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-top: -10px;
+  padding: 10px;
+}
+a {
+  color: black;
+}
+
+img {
+  max-width: 150px;
+  max-height: 150px;
+  float: right;
+}
